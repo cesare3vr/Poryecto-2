@@ -1,0 +1,111 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #0056b3; 
+    font-family: Arial; 
+}
+
+
+.form-container {
+    background-color: white;
+    padding: 48px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+    width: 100%; 
+    text-align: center; 
+}
+
+
+.form-content h2 {
+    color: #333;
+    margin-bottom: 20px;
+   
+}
+
+.form-content label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+}
+
+.form-content input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-content button {
+    width: 100%;
+    padding: 10px;
+    background-color: #004494;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.form-content button:hover {
+    background-color: #003366;
+}
+
+.form-content p {
+    margin-top: 20px;
+    color: #555;
+}
+
+.form-content a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.form-content a:hover {
+    text-decoration: underline;
+}
+
+.crear-cuenta-con {
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cuadrados-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 10px;
+    
+}
+
+.cuadrado {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.cuadrado.rojo {
+    background-color: #db4437; 
+}
+
+.cuadrado.azul {
+    background-color: #4267B2; 
+}
+
+.cuadrado.verde {
+    background-color: #e96518; 
+}
+
+.crear-cuenta-con p {
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
